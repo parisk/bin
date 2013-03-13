@@ -1,0 +1,7 @@
+# /bin/sh
+if [ -z $1 ]
+	then
+		echo "Usage: untar filename"
+		exit
+fi
+tar -xzfv $1
