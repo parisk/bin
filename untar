@@ -4,4 +4,4 @@ if [ -z $1 ]
 		echo "Usage: untar filename"
 		exit
 fi
-tar -xzfv $1
+tar -xzvf "$@"
